@@ -1,0 +1,7 @@
+- hosts: test
+  connection: yes
+  vars:
+    MSG: hello
+  tasks:
+    - debug:
+        msg: "{{ MSG }}"

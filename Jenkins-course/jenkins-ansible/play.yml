@@ -1,0 +1,4 @@
+---
+- hosts: test
+  task:
+  - sh "ping remote_user"
